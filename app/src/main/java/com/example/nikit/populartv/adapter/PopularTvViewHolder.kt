@@ -15,7 +15,6 @@ class PopularTvViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val url = "https://image.tmdb.org/t/p/w500${item.backdrop_path}"
         Picasso.get()
                 .load(url)
-                // .placeholder(R.drawable.placeholder)
                 .into(itemView.imageTv)
 
         itemView.setOnClickListener {

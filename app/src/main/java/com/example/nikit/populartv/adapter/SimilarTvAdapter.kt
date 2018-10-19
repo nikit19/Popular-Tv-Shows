@@ -12,11 +12,9 @@ class SimilarTvAdapter : RecyclerView.Adapter<SimilarTvViewHolder>() {
     private var clickListener: RecyclerViewClickListener? = null
     private val tvShows = ArrayList<Results>()
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SimilarTvViewHolder {
         return SimilarTvViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_similar_tv_show, parent, false))
     }
-
 
     fun setListener(listener: RecyclerViewClickListener) {
         clickListener = listener

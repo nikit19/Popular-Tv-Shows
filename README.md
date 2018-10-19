@@ -2,8 +2,7 @@
 
 A simple Android app, that helps users to discover popular Tv Shows. 
 
-For reviewers and other contributors :
-Enter your API Key in 16th line of build.gradle file :
+Please enter your API Key in the 16th line of build.gradle file :
 ```
 buildConfigField "String", "API_KEY", '"YOUR_API_KEY"'
 ```

@@ -7,11 +7,9 @@ import com.example.nikit.populartv.R
 import com.example.nikit.populartv.model.Results
 import java.util.ArrayList
 
-
 class PopularTvAdapter : RecyclerView.Adapter<PopularTvViewHolder>() {
     private var clickListener: RecyclerViewClickListener? = null
     private val tvShows = ArrayList<Results>()
-
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PopularTvViewHolder {
         return PopularTvViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_tv_show, parent, false))
