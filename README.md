@@ -12,4 +12,4 @@ buildConfigField "String", "API_KEY", '"YOUR_API_KEY"'
 ## Screenshots
 
 <img width="45%" src="screenshots/screenshot1.png" />
-<img width="45%" src=".github/screenshot2.png" />
+<img width="45%" src="screenshots/screenshot2.png" />
